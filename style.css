@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  background: linear-gradient(rgba(6, 174, 174, 0.5), rgba(188, 33, 209, 0.5)100%), url(./img/242720-P3DBRS-796.jpg);
+  Background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  color: rgb(5, 93, 99);
+  font-weight: bold;
+  font-size: 40px;
+  margin: 40px 20px 80px 20px;
+}
+
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv>div {
+  padding: 10px;
+  border-radius: 4px;
+  background: #00BF96;
+  display: inline-block;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.405)
+}
+
+#clockdiv div>span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816A;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+#demo {
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+@media (max-width: 470px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  #clockdiv {
+    font-size: .8em;
+  }
+
+}
