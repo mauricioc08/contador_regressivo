@@ -2,8 +2,8 @@
 // Lembrando que as iniciais do mês do calendario é em ingles 
 //Exemplo:  Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec.
 
-const mesDia =  "Nov 19" // altere as iniciais no mês e dia exemplo: fev 20
-const anoHora = "2022 15:30:00" // altere as iniciais no ano e hora exemplo: 2023 20:00:25
+const mesDia =  "Mar 20" // altere as iniciais no mês e dia exemplo: fev 20
+const anoHora = "2023 00:00:00" // altere as iniciais no ano e hora exemplo: 2023 20:00:25
 
 const deadline = new Date(`${mesDia}, ${anoHora}`).getTime();
   
